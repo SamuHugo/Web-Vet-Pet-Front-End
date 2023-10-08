@@ -1,0 +1,75 @@
+.container-table{
+    width: 80%;
+    margin: auto;
+    color: var(--color-main);
+}
+
+.table{
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table tr:first-of-type{
+    background-color: var(--color-main);
+    color: var(--color-white);
+    height: 70px;
+}
+
+.table tr th{
+    background-color: var(--color-main);
+    padding: 0 10px;
+    font-size: 15px;
+    width: max-content;
+}
+
+.table tr th:first-of-type,
+.table tr td:first-of-type{
+    border-radius: 20px 0 0 20px;
+    border-right: 1 solid var(--color-white);
+    width: 8%;
+}
+
+.table tr th:nth-of-type(2),
+.table tr td:nth-of-type(2){
+    width: 13%;
+}
+
+.table tr th:nth-of-type(3),
+.table tr td:nth-of-type(3){
+    width: 13%;
+}
+
+.table tr th:nth-of-type(4),
+.table tr td:nth-of-type(4){
+    width: 14%;
+}
+
+.table tr th:nth-of-type(5),
+.table tr td:nth-of-type(5){
+    width: 8%;
+}
+
+.table tr th:nth-of-type(6),
+.table tr td:nth-of-type(6){
+    width: 18%;
+}
+
+.table tr th:last-of-type,
+.table tr td:last-of-type{
+    border-radius: 0 20px 20px 0;
+    width: 12%;
+}
+
+
+.table tr{
+    background-color: var(--color-gray-2);
+    margin-top: 8px;
+    height: 60px;
+}
+
+.table tr td{
+    padding: 0 10px;
+    font-size: 15px;
+}

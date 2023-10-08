@@ -1,0 +1,63 @@
+
+/*---- btn crud ----*/
+
+.btn{
+    color: var(--color-white);
+    padding: 15px 12px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    border-radius: 10px;
+    transition: all ease .5s;
+}
+
+.btn-s{
+    color: var(--color-white);
+    padding: 10px 5px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    border-radius: 10px;
+    transition: all ease .5s;
+}
+
+.btn:hover, .btn-s:hover{
+    scale: .9;
+    filter: brightness(95%);
+}
+
+.btn-s>i{
+    padding: 10px 20px 10px 2px!important;
+}
+
+.bt-add-cart{
+    background-color: var(--color-sec-1);
+}
+
+.bt-add-cart-2{
+    background-color: var(--color-red-2);
+}
+
+.bt-main{
+    background-color: var(--color-main);
+}
+
+.bt-primary{
+    background-color: var(--color-pri-1);
+}
+
+.bt-delete{
+    background-color: var(--color-red);
+}
+
+.bt-edit{
+    background-color: var(--color-yellow);
+}
+
+.bt-info{
+    background-color: var(--color-green);
+}
+
+.bt-exit{
+    background-color: var(--color-red-2);
+}
