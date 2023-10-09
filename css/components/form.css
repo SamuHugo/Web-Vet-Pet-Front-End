@@ -27,6 +27,10 @@
     width: 500px;
 }
 
+::-webkit-datetime-edit-month-field { color: var(--color-gray);}
+::-webkit-datetime-edit-day-field { color: var(--color-gray); }
+::-webkit-datetime-edit-year-field { color: var(--color-gray); }
+
 .input-custom:focus,
 .txt-custom:focus{
     background-color: var(--color-gray-3);

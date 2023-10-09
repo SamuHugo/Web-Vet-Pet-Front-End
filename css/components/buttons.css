@@ -30,34 +30,42 @@
     padding: 10px 20px 10px 2px!important;
 }
 
-.bt-add-cart{
+.btn-cart{
     background-color: var(--color-sec-1);
 }
 
-.bt-add-cart-2{
+.btn-cart-2{
     background-color: var(--color-red-2);
 }
 
-.bt-main{
+.btn-main{
     background-color: var(--color-main);
 }
 
-.bt-primary{
+.btn-primary{
     background-color: var(--color-pri-1);
 }
 
-.bt-delete{
+.btn-primary-2{
+    background-color: var(--color-pri-2);
+}
+
+.btn-primary-3{
+    background-color: var(--color-pri-3);
+}
+
+.btn-delete{
     background-color: var(--color-red);
 }
 
-.bt-edit{
+.btn-edit{
     background-color: var(--color-yellow);
 }
 
-.bt-info{
+.btn-info{
     background-color: var(--color-green);
 }
 
-.bt-exit{
+.btn-exit{
     background-color: var(--color-red-2);
 }

@@ -1,10 +1,120 @@
 
-.elementor-heading-title{
+/*ELEMENTOR HEADING TITLES*/
+.title-xl{
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.title-xl{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.title-md{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.title{
     font-size: 30px;
     font-weight: 700;
 }
 
-.elementor-p{
+
+/*ELEMENTOR P BOLD*/
+.p-b-xl{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.p-b-lg{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.p--md{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.p-b{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+/*ELEMENTOR P MEDIUM*/
+.p-m-xl{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.p-m-lg{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.p-m-md{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.p-m{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/*ELEMENTOR P REGULAR*/
+.p-xl{
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.p-lg{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.p-md{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.p{
     font-size: 18px;
     font-weight: 400;
+}
+
+.p-2-sm{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+/*STYLES TEXT*/
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-uppercase{
+    text-transform: uppercase; /*mayusculas*/
+}
+
+.text-lowercase{
+    text-transform: lowercase; /*minusculas*/
+}
+
+.text-capitalize{
+    text-transform: capitalize; /*letra inicial mayusculas*/
 }

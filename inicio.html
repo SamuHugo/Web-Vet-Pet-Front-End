@@ -31,10 +31,11 @@
                     <li><a class="color-store" href="#">TIENDA PET</a></li>
                     <li><a class="" href="#">CONOCENOS</a></li>
                 </ul>
+                <div class="bar__sign-in">
+                    <a href="#"><i class="icon_bar-sign-in"></i> INICIAR SESION</a>
+                </div>
             </nav>
-            <div class="bar__sign-in">
-                <a href="#"><i class="icon_bar-sign-in"></i> INICIAR SESION</a>
-            </div>
+            
         </header>
     </div>
 
@@ -44,7 +45,7 @@
             <a class="container-logo" href="#PAGINA PRINCIPAL">
                 <div id="logo-nav" class="nav-logo-store"></div>
             </a>
-            <nav class="nav-store">
+            <nav class="nav-main">
                 <ul id="links" class="nav-list">
                     <li><a class="nav-active" href="#">INICIO</a></li>
                     <li><a href="#">PERROS</a></li>
@@ -62,27 +63,32 @@
                     <li><a class="" href="#">SERVICIOS</a></li>
                     <li><a class="" href="#">CONOCENOS</a></li>
                 </ul>
+                <div class="nav-bar__icons">
+                    <div class="nav-bar__icons-func">
+                        <a href="#"><i class="icon_nav-search"></i></a>
+                    </div>
+                    <div class="nav-bar__icons-func">
+                        <a href="#"><i class="icon_nav-cart"></i></a>
+                    </div>
+                </div>
+                <div class="bar__sign-in">
+                    <a href="#"><i class="icon_bar-sign-in"></i> INICIAR SESION</a>
+                </div>
             </nav>
-            <div class="nav-bar__icons">
-                <a href="#"><i class="icon_nav-search"></i></a>
-                <a href="#"><i class="icon_nav-cart"></i></a>
-            </div>
-            <div class="bar__sign-in">
-                <a href="#"><i class="icon_bar-sign-in"></i> INICIAR SESION</a>
-            </div>
+            
             
         </header>
     </div>
 
     <div style="margin: 50px;">
         <h2>BUTTONS</h2>
-        <button class="btn bt-add-cart" type="submit" value=""><i class="icon-add-cart"></i>AGREGAR CARRITO</button>
-        <button class="btn bt-primary" type="submit" value=""><i class="icon-add"></i>AÑADIR</button>
-        <button class="btn bt-edit" type="submit" value=""><i class="icon-edit"></i>EDITAR</button>
-        <button class="btn bt-info" type="submit" value=""><i class="icon-info"></i>INFORMACIÓN</button>
-        <button class="btn bt-delete" type="submit" value=""><i class="icon-delete"></i>ELIMINAR</button>
-        <button class="btn bt-exit" type="submit" value=""><i class="icon-exit"></i>SALIR</button>
-        <button class="btn bt-main" type="submit" value="">INICIAR SESIÓN</button>
+        <button class="btn btn-cart" type="submit" value=""><i class="icon-add-cart"></i>AGREGAR CARRITO</button>
+        <button class="btn btn-primary" type="submit" value=""><i class="icon-add"></i>AÑADIR</button>
+        <button class="btn btn-edit" type="submit" value=""><i class="icon-edit"></i>EDITAR</button>
+        <button class="btn btn-info" type="submit" value=""><i class="icon-info"></i>INFORMACIÓN</button>
+        <button class="btn btn-delete" type="submit" value=""><i class="icon-delete"></i>ELIMINAR</button>
+        <button class="btn btn-exit" type="submit" value=""><i class="icon-exit"></i>SALIR</button>
+        <button class="btn btn-main" type="submit" value="">INICIAR SESIÓN</button>
     </div>
 
     <div style="margin: 50px;">
@@ -123,7 +129,7 @@
                     <option value="2">Pasaporte</option>
                 </select>
                 <input class="input-custom input-number" type="number" value="" placeholder="N° de Documento" maxlength="8">
-                <input class="input-custom" type="date" value="" placeholder="Fecha de Nacimiento">
+                <input class="input-custom input-datetime" type="date" value="" placeholder="Fecha de Nacimiento">
                 <input class="input-custom" class="input-custom" type="text" value="" placeholder="Dirección">
                 <input class="input-custom input-number" type="number" value="" placeholder="Teléfono" maxlength="9">
                 <input class="input-custom" type="email" name="" id="" placeholder="Correo Eléctronico">
@@ -134,7 +140,7 @@
 
     </div>
 
-    <div>
+    <div style="margin: 50px;">
         <h2>Table</h2>
 
         <div class="container-table">
