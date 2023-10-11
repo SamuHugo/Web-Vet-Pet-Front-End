@@ -1,5 +1,12 @@
 /*----- ICON SYSTEM ----*/
 
+.icon-add-cart{
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px 20px 10px 5px;
+    background-image: url(../../img/base/icons/buttons/icon-shop-cart.png);
+    background-size: 24px;
+}
 
 .icon-add{
     background-repeat: no-repeat;

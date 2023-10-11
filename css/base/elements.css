@@ -23,7 +23,7 @@ a,
 ul,
 img,
 i{
-    user-select: none;
+    user-select: none !important;
 }
 
 img{
