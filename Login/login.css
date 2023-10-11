@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('../../../assets/images/logo/background.jpg');
+    background-image: url('../img/items/background.jpg');
     padding: 30px;
   }
   .container{
