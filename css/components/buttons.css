@@ -13,6 +13,7 @@
 
 .btn-s{
     color: var(--color-white);
+    font-size: 15px;
     padding: 10px 5px;
     font-weight: 700;
     font-style: normal;
@@ -22,7 +23,7 @@
 }
 
 .btn:hover, .btn-s:hover{
-    scale: .9;
+    transform: scale(.94);
     filter: brightness(95%);
 }
 
@@ -52,6 +53,26 @@
 
 .btn-primary-3{
     background-color: var(--color-pri-3);
+}
+
+.btn-secondary{
+    background-color: var(--color-sec-1);
+}
+
+.btn-secondary-2{
+    background-color: var(--color-sec-2);
+}
+
+.btn-secondary-3{
+    background-color: var(--color-sec-3);
+}
+
+.btn-dark{
+    background-color: var(--color-title);
+}
+
+.btn-dark-2{
+    background-color: var(--color-p);
 }
 
 .btn-delete{

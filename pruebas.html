@@ -9,7 +9,6 @@
     <meta name="keywords"
         content="clinica Veterinaria, veterinaria">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/components/card-item.css">
     <script src="https://kit.fontawesome.com/9541643713.js" crossorigin="anonymous"></script>
 
     <title>Inicio | VetPet</title>
@@ -17,7 +16,7 @@
 <body>
 
 
-    <!--NAV BAR - WEB SITE-->
+    <!--NAV BAR - WEB SITE
     <div class="container-header">
         <header id="nav" class="header-nav">
             <a class="container-logo" href="#PAGINA PRINCIPAL">
@@ -32,12 +31,22 @@
                     <li><a class="" href="#">CONOCENOS</a></li>
                 </ul>
                 <div class="bar__sign-in">
-                    <a href="#"><i class="icon_bar-sign-in"></i> INICIAR SESION</a>
+                    <label for="btn-user" class="btn btn-main"><i class="icon_bar-sign-in"></i> INICIAR SESION</label>
+                </div>
+                <input type="checkbox" checked id="btn-user">
+                <div class="container-card__sign-in">
+                    <div class="content-card__sign-in text-center">
+                        <h2 class="title-sm">Hola, Bienvenido</h2>
+                        <div class="content-buttons">
+                            <a href="" class="btn-s btn-main">Iniciar Sesión</a>
+                            <a href="" class="btn-s btn-dark-2">Registrate</a>
+                        </div>
+                    </div>
                 </div>
             </nav>
             
         </header>
-    </div>
+    </div>-->
 
     <!--NAV BAR - STORE-->
     <div class="container-header">
@@ -45,6 +54,7 @@
             <a class="container-logo" href="#PAGINA PRINCIPAL">
                 <div id="logo-nav" class="nav-logo-store"></div>
             </a>
+            
             <nav class="nav-main">
                 <ul id="links" class="nav-list">
                     <li><a class="nav-active" href="#">INICIO</a></li>
@@ -53,7 +63,7 @@
                     <li><a class="" href="#">MARCAS<i class="fa-solid fa-angle-down i-style"></i></a>
                         <ul class="nav-sub-list">
                             <li><a href="">RICOCAN</a></li>
-                            <li><a href="">RICOCAN</a></li>
+                            <li><a href="">PURINA</a></li>
                             <li><a href="">RICOCAN</a></li>
                             <li><a href="">RICOCAN</a></li>
                             <li><a href="">RICOCAN</a></li>
@@ -67,15 +77,25 @@
                     <div class="nav-bar__icons-func">
                         <a href="#"><i class="icon_nav-search"></i></a>
                     </div>
-                    <div class="nav-bar__icons-func">
+                    <div  class="nav-bar__icons-func">
                         <a href="#"><i class="icon_nav-cart"></i></a>
                     </div>
                 </div>
                 <div class="bar__sign-in">
-                    <a href="#"><i class="icon_bar-sign-in"></i> INICIAR SESION</a>
+                    <label for="btn-user" class="btn btn-main"><i class="icon_bar-sign-in"></i> INICIAR SESION</label>
+                </div>
+                <input type="checkbox" checked id="btn-user">
+                <div class="container-card__sign-in">
+                    <div class="content-card__sign-in text-center">
+                        <h2 class="title-sm">Hola, Bienvenido</h2>
+                        <div class="content-buttons">
+                            <a href="" class="btn-s btn-main">Iniciar Sesión</a>
+                            <a href="" class="btn-s btn-dark-2">Registrate</a>
+                        </div>
+                    </div>
                 </div>
             </nav>
-            
+
             
         </header>
     </div>
@@ -93,7 +113,7 @@
 
     <div style="margin: 50px;">
 
-        <h2>CARD</h2>
+        <h2 class="title-sm">CARD</h2>
 
         <div class="card-item">
             <div class="card-item-content"> <!-- al tocar nos redirige a la info del producto  -->

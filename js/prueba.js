@@ -1,1 +1,2 @@
-var hola;
+var hola = "GAAAAA";
+alert(hola);

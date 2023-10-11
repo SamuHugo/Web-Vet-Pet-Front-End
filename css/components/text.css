@@ -20,6 +20,11 @@
     font-weight: 700;
 }
 
+.title-sm{
+    font-size: 26px;
+    font-weight: 700;
+}
+
 
 /*ELEMENTOR P BOLD*/
 .p-b-xl{
@@ -42,6 +47,10 @@
     font-weight: 700;
 }
 
+.p-b-sm{
+    font-size: 16px;
+    font-weight: 700;
+}
 
 /*ELEMENTOR P MEDIUM*/
 .p-m-xl{
@@ -61,6 +70,11 @@
 
 .p-m{
     font-size: 18px;
+    font-weight: 500;
+}
+
+.p-m-sm{
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -86,9 +100,35 @@
     font-weight: 400;
 }
 
-.p-2-sm{
+.p-sm{
     font-size: 16px;
     font-weight: 400;
+}
+
+/*ELEMENTOR P LIGHTER*/
+.p-l-xl{
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.p-l-lg{
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.p-l-md{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.p-l{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.p-l-sm{
+    font-size: 16px;
+    font-weight: 300;
 }
 
 

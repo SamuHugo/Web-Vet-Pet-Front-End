@@ -1,5 +1,16 @@
+.nav__bar-options{
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
 .container-header{
-    overflow: hidden;
+    width: 95%;
+    background-color: var(--color-white);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-nav{
@@ -7,9 +18,9 @@
     height: 70px;
     display: inline-flex;
     align-items: center;
-    padding: 0 20px;
     border-bottom: 1px var(--color-gray-2) solid;
-    justify-content: space-around;
+    justify-content: space-between;
+    position: relative;
 }
 
 .nav-main{
@@ -75,7 +86,7 @@
 .nav-sub-list{
     position: absolute;
     left: 0;
-    top: 40px;
+    top: 50px;
     width: 200px;
     background: var(--color-white);
     display: none;
@@ -115,7 +126,7 @@
     transform: scale(.95);
 }
 
-.bar__sign-in>a{
+.bar__sign-in>label{
     text-align: center;
     color: var(--color-white);
     background-color: var(--color-main);
@@ -125,16 +136,17 @@
     border-radius: 16px;
     text-align: center;
     line-height: 70px;
+    z-index: 100;
 }
 
-.bar__sign-in>a>i{
+.bar__sign-in>label>a>i{
     margin-right: 6px;
 }
 
 .nav-bar__icons{
     line-height: 70px;
-    margin-left: 30px;
-    margin-right: 20px;
+    margin-left: 20px;
+    margin-right: 5px;
     display: inline-flex;
 }
 
@@ -153,3 +165,49 @@
 .nav-bar__icons-func:hover{
     transform: scale(.95);
 }
+
+
+
+/*** CARD SING IN ***/
+
+.container-card__sign-in{
+    position: absolute;
+    top: 80px;
+    right: 30px;
+}
+
+.content-card__sign-in{
+    max-width: 250px;
+    height: 210px;
+    padding: 5px 20px;
+    background-color: var(--color-white);
+    border-radius: 20px;
+    box-shadow: var(--shadow-1);
+    display: block;
+    animation-name: an-fading;
+    animation-duration: .7s;
+}
+
+#btn-user{
+    display: none;
+}
+
+#btn-user:checked ~ .container-card__sign-in{
+    display: none;
+}
+
+.content-buttons{
+    margin-top: 10px;
+    
+}
+
+.content-buttons>a{
+    display: block;
+    margin: auto;
+    width: 115px;
+}
+
+.content-buttons>a:first-of-type{
+    margin-bottom: 20px;
+}
+
