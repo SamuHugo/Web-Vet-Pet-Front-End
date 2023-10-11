@@ -13,8 +13,8 @@
 
 .btn-s{
     color: var(--color-white);
-    font-size: 15px;
-    padding: 10px 5px;
+    font-size: 13px;
+    padding: 10px 10px;
     font-weight: 700;
     font-style: normal;
     line-height: normal;
@@ -53,6 +53,10 @@
 
 .btn-primary-3{
     background-color: var(--color-pri-3);
+}
+
+.btn-primary-4{
+    background-color: var(--color-pri-4);
 }
 
 .btn-secondary{

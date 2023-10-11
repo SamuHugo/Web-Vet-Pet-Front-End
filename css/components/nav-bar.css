@@ -2,6 +2,7 @@
     width: 100%;
     position: fixed;
     z-index: 1000;
+    background-color: #fff;
 }
 
 .container-header{
@@ -88,6 +89,7 @@
     left: 0;
     top: 50px;
     width: 200px;
+    padding-bottom: 15px;
     background: var(--color-white);
     display: none;
     border-radius: 10px;
@@ -97,13 +99,14 @@
 }
 
 .nav-sub-list li{
-    width: 90%;
+    width: 80%;
+    padding-left: 30px;
 }
 
 .nav-sub-list li a{
     text-transform: uppercase;
     color: var(--color-main);
-    padding-left: 20px;
+    height: 55px;
 }
 
 .nav-sub-list li a:hover{

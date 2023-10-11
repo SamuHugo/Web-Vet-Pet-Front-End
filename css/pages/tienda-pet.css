@@ -73,19 +73,8 @@
     padding: 40px 0;
 }
 
-.elements__promotions>h1{
-    margin-bottom: 10px;
-}
-
-.elements__promotions>p{
-    width: 500px;
-}
-
-.content__card-promotions{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin: 30px auto;
+.content__promotions>div>p{
+    color: var(--color-white);
 }
 /* #endregion */
 
@@ -94,12 +83,23 @@
     background-color: var(--color-main);
     width: 100%;
     height: 300px;
+    margin: 20px 0 50px 0;
     color: var(--color-white);
+    display: flex;
+    justify-content: center;
 }
 
 .content__2x1{
+    margin: auto;
+    height: 300px;
     display: inline-flex;
     flex-wrap: wrap;
+    gap: 30px;
+}
+
+.box-2x1{
+    height: 300px;
+    line-height: 300px;
 }
 
 .box-2x1>a{
@@ -109,4 +109,34 @@
 .box-2x1>h1{
     font-size: 200px;
     font-weight: 700;
+}
+
+.box-2x1__elements{
+    display: block;
+    margin: 15% 0;
+    line-height: normal;
+}
+
+.box-2x1 p{
+    width: 700px;
+}
+/* #endregion */
+
+/* #region More Prodcuts */
+.container__products{
+    width: 100%;
+}
+
+.content__products{
+    margin: auto;
+    color: var(--color-main);
+}
+
+.elements__header-text>h1{
+    margin-bottom: 10px;
+}
+
+.elements__header-text>p{
+    width: 500px;
+    color: var(--color-p);
 }
