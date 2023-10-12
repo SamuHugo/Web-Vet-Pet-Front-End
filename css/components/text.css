@@ -21,7 +21,7 @@
 }
 
 .title-sm{
-    font-size: 26px;
+    font-size: 28px;
     font-weight: 700;
 }
 
@@ -32,12 +32,17 @@
     font-weight: 700;
 }
 
+.p-b-in{
+    font-size: 24px;
+    font-weight: 700;
+}
+
 .p-b-lg{
     font-size: 22px;
     font-weight: 700;
 }
 
-.p--md{
+.p-b-md{
     font-size: 20px;
     font-weight: 700;
 }
@@ -57,6 +62,12 @@
     font-size: 26px;
     font-weight: 500;
 }
+
+.p-m-in{
+    font-size: 24px;
+    font-weight: 500;
+}
+
 
 .p-m-lg{
     font-size: 22px;
@@ -85,6 +96,11 @@
     font-weight: 400;
 }
 
+.p-in{
+    font-size: 24px;
+    font-weight: 400;
+}
+
 .p-lg{
     font-size: 22px;
     font-weight: 400;
@@ -107,6 +123,11 @@
 
 /*ELEMENTOR P LIGHTER*/
 .p-l-xl{
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.p-l-in{
     font-size: 26px;
     font-weight: 300;
 }
