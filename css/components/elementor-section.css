@@ -50,7 +50,6 @@
 
 /*------------------------------------------------*/
 
-
 .elementor__app{
     background-color: var(--color-sec-2);
     display: flex;
@@ -61,3 +60,35 @@
     height: 100%;
     object-fit: cover;
 }
+
+
+/*-----------------------------------------------*/
+
+.elementor__directory{
+    max-width: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.content__directory{
+    margin: 140px auto 0 auto;
+    padding: 15px 0;
+}
+
+.content__directory>span{
+    color: var(--color-main);
+}
+
+.content__directory>span>a{
+    transition: all ease .4s;
+    color: var(--color-main);
+}
+
+.content__directory>span>a:hover{
+    transform: scale(.94);
+    color: var(--color-sec-3);
+}
+
+
+
+

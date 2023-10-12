@@ -95,6 +95,7 @@
     display: inline-flex;
     flex-wrap: wrap;
     gap: 30px;
+    padding: 0 10px;
 }
 
 .box-2x1{
@@ -107,7 +108,7 @@
 }
 
 .box-2x1>h1{
-    font-size: 200px;
+    font-size: 160px;
     font-weight: 700;
 }
 
