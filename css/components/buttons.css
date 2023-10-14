@@ -4,9 +4,22 @@
 .btn{
     color: var(--color-white);
     padding: 15px 12px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    border-radius: 10px;
+    transition: all ease .5s;
+}
+
+.btn-border{
+    color: var(--color-red-2);
+    padding: 15px 12px;
     font-weight: 700;
     font-style: normal;
     line-height: normal;
+    border: 2px solid var(--color-red-2);
     border-radius: 10px;
     transition: all ease .5s;
 }
@@ -15,7 +28,9 @@
     color: var(--color-white);
     font-size: 13px;
     padding: 10px 10px;
+    font-family: 'ubuntu', sans-serif;
     font-weight: 700;
+    font-size: 18px;
     font-style: normal;
     line-height: normal;
     border-radius: 10px;
@@ -93,4 +108,24 @@
 
 .btn-exit{
     background-color: var(--color-red-2);
+}
+
+
+.slider__btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: var(--color-white-2);
+    top: 55%;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px  !important;
+    border-radius: 50%;
+    transition: all .4s ease;
+    color: var(--color-black);
+}
+
+.slider__btn:hover{
+    background: rgba(209, 209, 209, 0.8);
 }

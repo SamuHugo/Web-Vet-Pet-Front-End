@@ -31,10 +31,13 @@
     --color-gray-3: #eae8e8;
     --color-white: #FFFFFF;
     --color-white-2: #f1f1f1;
+    --color-white-3: #f6f6f6;
 
 
     /*shadows*/
     --shadow-1: 0px 0px 8px 0px rgba(0, 0, 0, 0.30);
     --shadow-2: 0px 0px 6px 0px rgba(0, 0, 0, 0.15);
+    --text-shadow: 0 0 6px rgba(0, 0, 0, 0.30);
+    --text-shadow-2: 0 0 8px rgba(0, 0, 0, 0.15);
 }
 

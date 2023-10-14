@@ -90,5 +90,42 @@
 }
 
 
+/*-----------------------------------------------*/
 
+.elementor__header-cart{
+    max-width: 100%;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 20px;
+    border-bottom: 1px solid var(--color-gray-2);
+}
 
+.content__header-cart{
+    margin: 170px auto 0 auto;
+    padding: 20px;
+}
+
+.content__header-cart>h1{
+    margin-bottom: 20px;
+}
+
+.content__header-cart>a{
+    color: var(--color-sec-2);
+    transition: all ease .4s;
+}
+
+.content__header-cart>a:hover{
+    transform: scale(.94);
+}
+
+/*************************************************/
+
+.content__products-similar{
+    margin: auto;
+    width: max-content;
+}
+
+.elements__header-text{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}

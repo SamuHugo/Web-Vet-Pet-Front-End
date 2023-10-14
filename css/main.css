@@ -15,3 +15,18 @@
 @import url(../css/components/carrusel.css);
 @import url(../css/components/elementor-grid.css);
 @import url(../css/components/elementor-section.css);
+@import url(../css/components/model-card-slider.css);
+@import url(../css/components/swiper-bundle.css);
+@import url(../css/components/swiper-bundle.min.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+}

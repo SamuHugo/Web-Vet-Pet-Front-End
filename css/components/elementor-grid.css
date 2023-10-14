@@ -26,6 +26,12 @@
     grid-template-rows: repeat(2, 1fr);
 }
 
+.grid-col-5{ /*Columna 4 / Filas 2*/
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+
 .grid-store-product{ /*Columna 5 / Filas 3*/
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
