@@ -1,0 +1,59 @@
+.medicos-container {
+    padding-top: 100px;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #352E58;
+}
+
+.medicos-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.medicos-text {
+    margin-top: 30px;
+    font-weight: normal;
+    color: #0F41AF;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.medicos-button {
+    padding: 10px 20px;
+    background-color: #0F41AF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.medicos-button:hover {
+    background-color: #0056b3;
+}
+.medicos-table {
+    border-radius: 15px;
+    background-color: #352E58;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.medicos-table th, .medicos-table td {
+    padding: 10px;
+    text-align: center;
+}
+.medicos-table th {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Ubuntu';
+    color: #fff;
+}
+.medicos-options {
+    display: flex;
+    justify-content: center;
+}
+.medicos-options i {
+    margin: 0 5px;
+    color: #007bff;
+    cursor: pointer;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="AgregarMedico.css">
+    <link rel="stylesheet" href="../../../css/main.css">
+    <script src="https://kit.fontawesome.com/9541643713.js" crossorigin="anonymous"></script>
+    <title>Mantenimiento de Médicos</title>
+</head>
+
+<body>
+    <div class="container-header">
+        <header id="nav" class="header-nav">
+            <a class="container-logo" href="#PAGINA PRINCIPAL">
+                <div id="logo-nav" class="nav-logo"></div>
+            </a>
+            <nav class="nav-main">
+                <ul id="links" class="nav-list">
+                    <li><a class="nav-active" href="#">INICIO</a></li>
+                    <li><a href="#">SERVICIOS VETERINARIOS</a></li>
+                    <li><a class="btn-nav" href="#">ESPECIALIDADES</a></li>
+                    <li><a class="color-store" href="#">TIENDA PET</a></li>
+                    <li><a class="" href="#">CONOCENOS</a></li>
+                </ul>
+                <div class="bar__sign-in">
+                    <label for="btn-user" class="btn btn-main"><i class="icon_bar-sign-in"></i> INICIAR SESION</label>
+                </div>
+                <input type="checkbox" checked id="btn-user">
+                <div class="container-card__sign-in">
+                    <div class="content-card__sign-in text-center">
+                        <h2 class="title-sm">Hola, Bienvenido</h2>
+                        <div class="content-buttons">
+                            <a href="" class="btn-s btn-main">Iniciar Sesión</a>
+                            <a href="" class="btn-s btn-dark-2">Registrate</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+    </div>
+
+    <div class="container">
+        <a href="#" class="regresar">Regresar</a>
+        <h1 class="titulo">Mantenimiento de Médicos</h1>
+        <p class="subtitulo">Agregar Médicos</p>
+        <form>
+            <div class="form-container">
+                <div class="form-column">
+                    <input type="text" placeholder="Nombres" name="nombres">
+                    <input type="text" placeholder="Apellidos" name="apellidos">
+                    <div>
+                        <input type="text" placeholder="Género" name="genero" style="display: inline-block; width: 48%;">
+                        <input type="date" placeholder="Fecha de Nacimiento" name="fecha_nacimiento" style="display: inline-block; width: 50%;">
+                    </div>
+                    <input type="text" placeholder="DNI" name="dni">
+                    <input type="text" placeholder="Dirección" name="direccion">
+                    <input type="text" placeholder="Teléfono" name="telefono">
+                    <input type="text" placeholder="Especialidad" name="especialidad">
+                    <input type="text" placeholder="Sede" name="sede">
+                </div>
+                <div class="form-column">
+                    <input type="email" placeholder="Correo Electrónico" name="email">
+                    <input type="password" placeholder="Contraseña" name="password">
+                    <textarea placeholder="Comentario"></textarea>
+                    <div class="center-button">
+                        <button class="btn-agregar" type="button">Agregar Médico</button>
+                    </div>               
+                 </div>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+.admin-container {
+    width: 100%;
+    text-align: center;
+}
+
+
+.admin-name {
+    font-family: 'Ubuntu';
+    font-size: 24px;
+    font-weight: bold;
+    color: #352E58;
+    margin: 20px 0;
+}
+
+
+.admin-role {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+.user-icon {
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+
+.functions-container {
+    text-align: center;
+    margin-top: 20px;
+    display: flex; 
+    justify-content: space-between;
+}
+
+
+.function-box {
+    color: #352E58;
+    display: inline-block;
+    border-radius: 15px;
+    height: 350px;
+    width: 350px;
+    margin: 0 2%;
+    background-color: #EFEFEF;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.mtn-text{
+    margin: 80px;
+    margin-right: 100px;
+}
+
+.account-settings {
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 300px;
+    float: left;
+}
+
+.account-settings h2 {
+    width: 600px;
+    font-size: 40px;
+    margin: 0;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.account-button {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px 0;
+    background-color: #EFEFEF;
+    color: #352E58;
+    cursor: pointer;
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.logout-button {
+    font-weight: bold;
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    color: #EFEFEF;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    padding: 10px;
+    background-color: #F50057; /* Color rojo para el botón de cerrar sesión */
+}
