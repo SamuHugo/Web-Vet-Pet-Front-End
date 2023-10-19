@@ -1,0 +1,83 @@
+.container {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.regresar {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #0F41AF;
+}
+
+.titulo {
+    color: #352E58;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.subtitulo {
+    color: #0F41AF;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.form-container {
+    display: flex;
+    justify-content: flex-start; /* Alinea el formulario a la izquierda */
+}
+
+.form-column {
+    flex: 1;
+    padding: 10px;
+}
+
+.form-column textarea {
+    height: 100px;
+    width: 100%;
+}
+
+.form-column input {
+    height: 50px;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    font-family: 'Ubuntu';
+    border-radius: 10px;
+    background-color: #EFEFEF; /* Cambia este valor al color que desees */
+}
+
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    font-family: 'Ubuntu';
+    border-radius: 10px;
+    background-color: #EFEFEF; /* Cambia este valor al color que desees */
+}
+
+textarea {
+    font-family: 'Ubuntu';
+    border-radius: 10px;
+    resize: vertical;
+    background-color: #EFEFEF; /* Cambia este valor al color que desees */
+}
+
+.center-button {
+    text-align: center;
+}
+
+.btn-agregar {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #352E58;
+    color: white;
+    padding: 10px 15px;        
+    border: none;
+    cursor: pointer;
+}
