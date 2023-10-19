@@ -18,6 +18,9 @@
 @import url(../css/components/model-card-slider.css);
 @import url(../css/components/swiper-bundle.css);
 @import url(../css/components/swiper-bundle.min.css);
+@import url(../css/components/elementor-widget.css);
+@import url(../css/components/elementor-header-user.css);
+@import url(../css/components/user-dashboard.css);
 
 *{
     margin: 0;

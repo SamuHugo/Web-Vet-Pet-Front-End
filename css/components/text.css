@@ -1,5 +1,10 @@
 
 /*ELEMENTOR HEADING TITLES*/
+.title-sxl{
+    font-size: 58px;
+    font-weight: 700;
+}
+
 .title-xl{
     font-size: 46px;
     font-weight: 700;
@@ -19,6 +24,13 @@
     font-size: 30px;
     font-weight: 700;
 }
+
+
+.title-m{
+    font-size: 30px;
+    font-weight: 500;
+}
+
 
 .title-sm{
     font-size: 28px;
@@ -58,6 +70,12 @@
 }
 
 /*ELEMENTOR P MEDIUM*/
+
+.p-m-sxl{
+    font-size: 28px;
+    font-weight: 500;
+}
+
 .p-m-xl{
     font-size: 26px;
     font-weight: 500;
@@ -91,6 +109,11 @@
 
 
 /*ELEMENTOR P REGULAR*/
+.p-sxl{
+    font-size: 28px;
+    font-weight: 400;
+}
+
 .p-xl{
     font-size: 26px;
     font-weight: 400;

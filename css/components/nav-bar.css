@@ -2,7 +2,7 @@
     width: 100%;
     position: fixed;
     z-index: 1000;
-    background-color: #fff;
+    background-color: var(--color-white);
 }
 
 .container-header{
@@ -180,9 +180,9 @@
 }
 
 .content-card__sign-in{
-    max-width: 250px;
-    height: 210px;
-    padding: 5px 20px;
+    width: 250px;
+    height: 230px;
+    padding: 5px 10px;
     background-color: var(--color-white);
     border-radius: 20px;
     box-shadow: var(--shadow-1);
@@ -201,7 +201,6 @@
 
 .content-buttons{
     margin-top: 10px;
-    
 }
 
 .content-buttons>a{
@@ -211,6 +210,6 @@
 }
 
 .content-buttons>a:first-of-type{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 

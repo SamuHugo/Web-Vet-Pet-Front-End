@@ -13,6 +13,18 @@
     transition: all ease .5s;
 }
 
+.btn-xl{
+    color: var(--color-white);
+    padding: 20px 17px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    font-style: normal;
+    line-height: normal;
+    border-radius: 10px;
+    transition: all ease .5s;
+}
+
 .btn-border{
     color: var(--color-red-2);
     padding: 15px 12px;
@@ -37,7 +49,7 @@
     transition: all ease .5s;
 }
 
-.btn:hover, .btn-s:hover{
+.btn:hover, .btn-s:hover, .btn-xl:hover{
     transform: scale(.94);
     filter: brightness(95%);
 }

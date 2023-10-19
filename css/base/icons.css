@@ -32,6 +32,14 @@
     background-size: 24px;
 }
 
+.icon-cancel{
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px 20px 10px 5px;
+    background-image: url(../../img/base/icons/buttons/icon-cancel.png);
+    background-size: 24px;
+}
+
 .icon-info{
     background-repeat: no-repeat;
     background-position: center;
@@ -80,7 +88,28 @@
     background-size: 30px;
 }
 
+.icon-user-option{
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px 20px 10px 7px;
+    background-image: url(../../img/base/system/user-dades.png);
+    background-size: 38px;
+}
 
+.icon-key-option{
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px 20px 10px 5px;
+    background-image: url(../../img/base/system/user-key.png);
+    background-size: 34px;
+}
 
+.icon-check-lg{
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px 20px 10px 5px;
+    background-image: url(../../img/base/system/icon-check-large.png);
+    background-size: 50px;
+}
 
 /*----- ICON RED SOCIAL ----*/

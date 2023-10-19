@@ -19,6 +19,7 @@
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     font-size: 16px;
+    transition: all .4s ease-in;
 }
 
 .input-select{
@@ -34,7 +35,6 @@
 .input-custom:focus,
 .txt-custom:focus{
     background-color: var(--color-gray-3);
-    transition: all .4s ease-in;
 }
 
 .input-custom::placeholder,
