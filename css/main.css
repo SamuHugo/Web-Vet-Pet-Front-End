@@ -21,6 +21,11 @@
 @import url(../css/components/elementor-widget.css);
 @import url(../css/components/elementor-header-user.css);
 @import url(../css/components/user-dashboard.css);
+@import url(../css/pages/client.css);
+@import url(../css/pages/tienda-pet-carrito.css);
+@import url(../css/pages/tienda-pet-info-producto.css);
+@import url(../css/pages/tienda-pet-productos.css);
+@import url(../css/pages/tienda-pet.css);
 
 *{
     margin: 0;
