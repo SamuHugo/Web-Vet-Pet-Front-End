@@ -4,6 +4,13 @@
   padding: 40px 0;
 }
 
+.slide-container-person{
+  width: 100%;
+  max-width: 1210px;
+  padding: 40px 0;
+  margin-top: 40px;
+}
+
 .slide-content{
   margin: 0px 50px 30px 50px;
   overflow: hidden;

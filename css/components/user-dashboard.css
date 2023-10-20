@@ -26,7 +26,12 @@
     display: flex;
     flex-wrap: nowrap;
     gap: 5%;
+}
 
+.med{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
 .container-activities__box a,
@@ -56,6 +61,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.med>a>.activities__box:nth-of-type(5),
+.med>a>.activities__box:last-of-type{
+    flex-wrap: wrap;
 }
 
 .content__options-user{
